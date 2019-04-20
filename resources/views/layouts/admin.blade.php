@@ -1,4 +1,5 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="{{ URL::to('css/styles.css') }}">
 </head>
 <body>
-@include('partials.header')
+@include('partials.admin-header')
 <div class="container">
     @yield('content')
 </div>
